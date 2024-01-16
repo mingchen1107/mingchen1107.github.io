@@ -437,6 +437,17 @@ ul {
 	font-size:14px;
 }
 
+#about-text {
+    font-size: 1.5em; /* Adjust the size as needed */
+    line-height: 1.4; /* Adjust line spacing for better readability */
+    /* Add any additional styling here */
+}
+
+@media (max-width: 768px) {
+    #about-text {
+        font-size: 1.2em; /* Smaller font size for mobile devices */
+    }
+}
 
 
 
