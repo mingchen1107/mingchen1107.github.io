@@ -438,8 +438,8 @@ ul {
 }
 
 #about-section a {
-    color: #007bff; /* Choose a color that stands out */
-    font-size: 1.2em; /* Larger font size */
+    color: #ff6b6b; /* Choose a color that stands out */
+    font-size: 1.1em; /* Larger font size */
     font-weight: bold; /* Optional: makes the text bold */
     text-decoration: none; /* Removes the underline from links */
 }
