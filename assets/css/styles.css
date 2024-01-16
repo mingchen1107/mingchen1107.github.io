@@ -437,8 +437,23 @@ ul {
 	font-size:14px;
 }
 
+#about-section a {
+    color: #007bff; /* Choose a color that stands out */
+    font-size: 1.2em; /* Larger font size */
+    font-weight: bold; /* Optional: makes the text bold */
+    text-decoration: none; /* Removes the underline from links */
+}
 
+#about-section a:hover {
+    text-decoration: underline; /* Adds underline on hover for better interactivity */
+}
 
+/* Optional: Responsive font size for smaller screens */
+@media (max-width: 768px) {
+    #about-section a {
+        font-size: 1em; /* Slightly smaller font size for mobile devices */
+    }
+}
 
 
 
