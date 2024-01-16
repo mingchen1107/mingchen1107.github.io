@@ -455,5 +455,33 @@ ul {
     }
 }
 
+#about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; /* Adjust as needed */
+}
+
+#about-text {
+    flex-basis: 50%; /* Adjust the width as needed */
+    padding: 15px; /* Add some padding */
+}
+
+#about-img {
+    max-width: 300px; /* Adjust the size as needed */
+    height: auto;
+    padding: 15px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    #about-content {
+        flex-direction: column;
+    }
+
+    #about-text, #about-img {
+        flex-basis: 100%;
+    }
+}
+
 
 
